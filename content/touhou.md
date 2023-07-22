@@ -5,15 +5,15 @@ menu = "main"
 
 # 东方世界观
 
-<!-- ## eraTheWorld
+## eraTheWorld
 
-{{< era-game eraTW >}}
+{{< era-game "18234" >}}
 
 > 本作由「傲視長空」推荐。
 
 簡稱 eraTW。這是一個擁有時間停止能力的人，在幻想鄉中生活並與各種少女們打交道(順便偷內褲)的日常故事。
 
-這大概是所有 era 遊戲中完成度最高的了，口上極其豐富，事件種類繁多，漢化也很完整，有著 era 類最多的補丁，日本那邊更新也非常勤勞，而且還是純愛。只要有想玩 era 就十分推薦玩玩看這款，即使沒接觸過東方也沒關係，通過遊戲內與各個角色互動也能慢慢了解她們的魅力。 -->
+這大概是所有 era 遊戲中完成度最高的了，口上極其豐富，事件種類繁多，漢化也很完整，有著 era 類最多的補丁，日本那邊更新也非常勤勞，而且還是純愛。只要有想玩 era 就十分推薦玩玩看這款，即使沒接觸過東方也沒關係，通過遊戲內與各個角色互動也能慢慢了解她們的魅力。
 
 ## eratohoYM AE M
 
@@ -28,9 +28,9 @@ menu = "main"
 丰富的游戏机制，调教指令，角色特有指令等，同时具备一定的挑战性和不错的多周目游玩体验。目前拥有截至绀珠传的全部角色，以及大量旧作、二创、梗角色，并且拥有相对较多的口上（辉针城前）和大量日常事件。\
 可以说是 era 早期的本格调教（贩卖人口）的巅峰。
 
-<!-- ## eratohoЯeverse
+## eratohoЯeverse
 
-{{< era-game eratohoReverse >}}
+{{< era-game "18206" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -38,7 +38,7 @@ menu = "main"
 
 ## eratohoT
 
-{{< era-game eratohoT >}}
+{{< era-game "18205" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -46,7 +46,7 @@ menu = "main"
 
 ## eratohoPM
 
-{{< era-game eratohoPM >}}
+{{< era-game "18204" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -54,7 +54,7 @@ menu = "main"
 
 ## eratohoSB 紅魔館
 
-{{< era-game eratohoSB_koumakan >}}
+{{< era-game "18202" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -64,7 +64,7 @@ menu = "main"
 
 ## eratohoKaguya
 
-{{< era-game eratohoKaguya >}}
+{{< era-game "18200" >}}
 
 > 本作由「须臾的 neet 姬」推荐。
 
@@ -73,7 +73,7 @@ menu = "main"
 
 ## eratohoLoA
 
-{{< era-game eratohoLoA >}}
+{{< era-game "18174" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -87,7 +87,7 @@ menu = "main"
 
 ## eratohoK
 
-{{< era-game eratohoK >}}
+{{< era-game "18172" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -95,7 +95,7 @@ menu = "main"
 
 ## eratohoJ+
 
-{{< era-game eratohoJ >}}
+{{< era-game "18171" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -103,7 +103,7 @@ menu = "main"
 
 ## eraNeoNew
 
-{{< era-game eraNeoNew >}}
+{{< era-game "18160" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -113,7 +113,7 @@ menu = "main"
 
 ## eratoho 触手変
 
-{{< era-game eratohoShokushuHen >}}
+{{< era-game "18224" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -121,7 +121,7 @@ menu = "main"
 
 ## era 東方触手宮
 
-{{< era-game eratohoShokushuPalace >}}
+{{< era-game "18225" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -129,7 +129,7 @@ menu = "main"
 
 ## era 東方逆触手宫
 
-{{< era-game eratohoReversedShokushuPalace >}}
+{{< era-game "18226" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -137,7 +137,7 @@ menu = "main"
 
 ## era 紅魔館 protoNTR
 
-{{< era-game eraKoumakanprotoNTR >}}
+{{< era-game "18228" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -147,8 +147,8 @@ menu = "main"
 
 ## era 永琳通
 
-{{< era-game eraEirintuu >}}
+{{< era-game "18214" >}}
 
 > 本作由「傲視長空」推荐。
 
-全漢化的 era 遊戲，你扮演一位醫生，在幻想鄉中提供醫療服務，為了治癒病人們奇奇怪怪的病症，你也需要外出探索尋找素材。同時，醫療的時候，也能夠提供一些"特殊服務"…… -->
+全漢化的 era 遊戲，你扮演一位醫生，在幻想鄉中提供醫療服務，為了治癒病人們奇奇怪怪的病症，你也需要外出探索尋找素材。同時，醫療的時候，也能夠提供一些"特殊服務"……

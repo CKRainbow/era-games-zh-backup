@@ -3,13 +3,13 @@ title = "其他同人世界观"
 menu = "main"
 +++
 
-<!-- # 其他同人世界观
+# 其他同人世界观
 
 ## eraMegaten
 
 > 女神转生[^mgt] 系列同人
 
-{{< era-game eraMegaten >}}
+{{< era-game "18232" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -23,7 +23,7 @@ menu = "main"
 
 > Succubus Quest 同人
 
-{{< era-game eraSQC_Chinese >}}
+{{< era-game "18056" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -35,7 +35,7 @@ menu = "main"
 
 > Fate/Grand Order 同人 战略向
 
-{{< era-game eraFGO_K >}}
+{{< era-game "18132" >}}
 
 > 本作由「MrJ」推荐。
 
@@ -49,7 +49,7 @@ menu = "main"
 
 > 刀劍亂舞同人 戰略版
 
-{{< era-game eraTohloveKH >}}
+{{< era-game "18170" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -59,7 +59,7 @@ menu = "main"
 
 > 刀劍亂舞同人 乙女向
 
-{{< era-game eraTohloveR >}}
+{{< era-game "18169" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -69,7 +69,7 @@ menu = "main"
 
 > 進擊的巨人同人 腐向
 
-{{< era-game eraShingeki >}}
+{{< era-game "18168" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -79,7 +79,7 @@ menu = "main"
 
 > 偶像大师同人
 
-{{< era-game eraMobaMasJ >}}
+{{< era-game "18142" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -91,7 +91,7 @@ menu = "main"
 
 > 舰队 Collection 同人
 
-{{< era-game eraKanColle >}}
+{{< era-game "18138" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -101,19 +101,19 @@ menu = "main"
 
 > 黑塔利亚同人 乙女向
 
-{{< era-game erahetaR >}}
+{{< era-game "18135" >}}
 
 ## erajogio
 
 > JOJO 同人 腐向
 
-{{< era-game erajogio >}}
+{{< era-game "18137" >}}
 
 ## era inSchoolA
 
 > （学园题材）综漫同人
 
-{{< era-game era_inSchoolA_Chinese >}}
+{{< era-game "17993" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -125,7 +125,7 @@ menu = "main"
 
 > 天才麻将少女同人
 
-{{< era-game eraSumireTeru >}}
+{{< era-game "18166" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -139,7 +139,7 @@ menu = "main"
 
 > 型月系列同人
 
-{{< era-game eratype-moon >}}
+{{< era-game "18211" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -151,7 +151,7 @@ menu = "main"
 
 > （超能系）综漫同人
 
-{{< era-game eraH >}}
+{{< era-game "18134" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -165,7 +165,7 @@ menu = "main"
 
 > 恋姬无双同人
 
-{{< era-game eraKoihime >}}
+{{< era-game "18218" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -175,7 +175,7 @@ menu = "main"
 
 > 碧蓝档案同人
 
-{{< era-game eraBlue-Archive >}}
+{{< era-game "18227" >}}
 
 > 本作由「须臾的 neet 姬」推荐。
 
@@ -185,7 +185,7 @@ menu = "main"
 
 > 世界树的迷宫同人
 
-{{< era-game eraMeiQGaiden >}}
+{{< era-game "18230" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -197,7 +197,7 @@ menu = "main"
 
 > 碧蓝航线同人
 
-{{< era-game eraAL-K >}}
+{{< era-game "18235" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -211,19 +211,19 @@ menu = "main"
 
 > 世界树的迷宫同人
 
-{{< era-game eraSekaQ >}}
+{{< era-game "18237" >}}
 
 ## eraTW FGO
 
 > 基于 eraTW 魔改的 Fate/Grand Order 同人
 
-{{< era-game eraTW-FGO >}}
+{{< era-game "18490" >}}
 
 ## eraIm@scgprov
 
 > 偶像大師·灰姑娘女孩同人
 
-{{< era-game eraimascgpro >}}
+{{< era-game "18504" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -233,10 +233,10 @@ menu = "main"
 
 > 黑塔利亚同人
 
-{{< era-game erahetaCPM >}}
+{{< era-game "18532" >}}
 
 ## era 淫妖蟲 NTR（首发中文）
 
 > 淫妖蟲同人
 
-{{< era-game era-ntr >}} -->
+{{< era-game "18242" >}}

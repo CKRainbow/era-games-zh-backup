@@ -5,9 +5,9 @@ menu = "main"
 
 # 原创世界观
 
-<!-- ## eraAkumaMaid
+## eraAkumaMaid
 
-{{< era-game eraAkumaMaid >}}
+{{< era-game "18233" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -19,7 +19,7 @@ menu = "main"
 
 ## era 魔界牧場
 
-{{< era-game eraMakaiPasture >}}
+{{< era-game "18229" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -29,7 +29,7 @@ menu = "main"
 
 ## eraQueenA+
 
-{{< era-game eraQueenA >}}
+{{< era-game "18167" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -37,7 +37,7 @@ menu = "main"
 
 ## eraRL2
 
-{{< era-game eraRL2 >}}
+{{< era-game "18163" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -47,7 +47,7 @@ menu = "main"
 
 ## eraRL@&ex
 
-{{< era-game eraRL >}}
+{{< era-game "18162" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -57,7 +57,7 @@ menu = "main"
 
 ## era Princess of Guilt
 
-{{< era-game erapog >}}
+{{< era-game "18161" >}}
 
 > 本作由「须臾的 neet 姬」推荐。
 
@@ -66,7 +66,7 @@ menu = "main"
 
 ## eraMaouEx（魔王）
 
-{{< era-game eraMaouEx >}}
+{{< era-game "18141" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -78,7 +78,7 @@ menu = "main"
 
 ## eraJK
 
-{{< era-game eraJK >}}
+{{< era-game "18136" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -88,7 +88,7 @@ menu = "main"
 
 > 本作没有配置 `CSV/GameBase.csv`，因此没有读取到任何相关信息。
 
-{{< era-game eraRPG >}}
+{{< era-game "18365" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -98,7 +98,7 @@ menu = "main"
 
 > 本作没有配置 `CSV/GameBase.csv`，因此没有读取到任何相关信息。
 
-{{< era-game eraSAS >}}
+{{< era-game "18165" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -108,7 +108,7 @@ menu = "main"
 
 > 本作没有配置 `CSV/GameBase.csv`，因此没有读取到任何相关信息。
 
-{{< era-game eraKGB >}}
+{{< era-game "18139" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -118,7 +118,7 @@ menu = "main"
 
 ## eraGVT
 
-{{< era-game eraGVT >}}
+{{< era-game "18133" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -130,7 +130,7 @@ GVT 是 Girls vs. Tentacles 的簡稱。
 
 ## eraAWT
 
-{{< era-game eraAWT >}}
+{{< era-game "18124" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -140,7 +140,7 @@ GVT 是 Girls vs. Tentacles 的簡稱。
 
 ## eraAS
 
-{{< era-game eraAS >}}
+{{< era-game "18123" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -152,7 +152,7 @@ GVT 是 Girls vs. Tentacles 的簡稱。
 
 ## eraYABOU
 
-{{< era-game eraYABOU >}}
+{{< era-game "18212" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -162,7 +162,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## 電探魔法少女貓薩尼亞
 
-{{< era-game eraCatSarnia >}}
+{{< era-game "18216" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -172,7 +172,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## era 吸血鬼
 
-{{< era-game eraVampire >}}
+{{< era-game "18217" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -182,11 +182,11 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## era 俄羅斯方塊
 
-{{< era-game eraTetris >}}
+{{< era-game "18231" >}}
 
 ## era4X
 
-{{< era-game era4X >}}
+{{< era-game "18417" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -194,7 +194,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## erAV
 
-{{< era-game erAV >}}
+{{< era-game "18418" >}}
 
 > 本作由「傲視長空」推荐。
 
@@ -204,7 +204,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## eraDuo（首发中文）
 
-{{< era-game eraDuo >}}
+{{< era-game "18811" >}}
 
 > 本作由「AAZ」推荐。
 
@@ -222,7 +222,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## era 麻雀（首发中文）
 
-{{< era-game eraMahjong >}}
+{{< era-game "17978" >}}
 
 > 本作由 lackbfun ~~挖坑~~，详见《[era 麻雀 开发日志](https://lackb.fun/era/era-mahjong-development)》。\
 > **半成品警告。**
@@ -236,7 +236,7 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
 
 ## eraCOG（首发中文）
 
-{{< era-game eraCOG >}}
+{{< era-game "19686" >}}
 
 > 本作由 lackbfun ~~挖坑~~，详见《[eraCOG 开发日志](https://lackb.fun/era/era-roguelike-development)》。\
 > **草创作品警告，请慎重选择是否试玩。**\
@@ -250,4 +250,4 @@ SLG 遊戲，系統比較複雜，初學者可以先玩一遍教學模式。由�
    我个人热烈欢迎玩家打造自己的 build 总结优劣，并积极反馈。\
    但你总结的所有 build 随时可能在下一次更新后失效，请悉知。\
    我知道很多人认为这反而是优点，能够保持新鲜感。\
-   不过据我所知有部分玩家是不太能接受频繁大改的，先打个预防针以免影响游戏体验。 -->
+   不过据我所知有部分玩家是不太能接受频繁大改的，先打个预防针以免影响游戏体验。
