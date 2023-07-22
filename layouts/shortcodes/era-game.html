@@ -3,14 +3,10 @@
 {{/*  {{ $GameApiUrl := add "https://api.erag.eu.org/" $GameName }}
 {{ $GameInfoUrl := add $GameApiUrl "/version/json" }}  */}}
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
-{{ $GameRepoInfoUrl := $GameRepoBaseUrl }}
-{{ $GameCommitInfoUrl := add $GameRepoBaseUrl "/repository/commits"}}
 {{ $GameFileDownloadUrl := add $GameRepoBaseUrl "/repository/archive.zip"}}
-{{ $ACCESS_TOKEN := os.Getenv "GITGUD_ACCESS_TOKEN"}}
 
 {{ $repo_data := partialCached "repo_info_json.html" $GameRepoId }}
 {{ $commits_data := partialCached "commits_info_json.html" $GameRepoId }}
-
 
 {{ $GameName := $repo_data.name }}
 {{ $GameDes  := $repo_data.description }}
