@@ -17,7 +17,7 @@ menu = "main"
 
 ## eratohoYM AE M
 
-{{< era-game eratohoYMAEM_Chinese >}}
+{{< era-game 17959 >}}
 
 > 本作由「CK Rainbow」推荐。
 
