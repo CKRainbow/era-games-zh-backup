@@ -8,8 +8,8 @@
 {{ $GameFileDownloadUrl := add $GameRepoBaseUrl "/repository/archive.zip"}}
 {{ $ACCESS_TOKEN := os.Getenv "GITGUD_ACCESS_TOKEN"}}
 
-{{ $repo_data := partialCached "repo_info_json.html" . $GameRepoId }}
-{{ $commits_data := partialCached "commits_info_json.html" . $GameRepoId }}
+{{ $repo_data := partialCached "repo_info_json.html" $GameRepoId }}
+{{ $commits_data := partialCached "commits_info_json.html" $GameRepoId }}
 
 
 {{ $GameName := $repo_data.name }}
@@ -39,7 +39,7 @@
             </div>
           </button>
         </span>
-        {{ range $i, $commit := first 4 $commist_data }}
+        {{ range $i, $commit := first 4 $commits_data }}
           {{ if ne $i 0 }}<span class="era-game-log">{{- $commit.message -}}</span>{{ end }}
         {{ end }}
       </div>
