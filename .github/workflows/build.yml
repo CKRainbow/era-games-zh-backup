@@ -27,6 +27,7 @@ jobs:
       - name: 3. Build
         run: |
           sudo timedatectl set-timezone Asia/Shanghai
+          echo $HUGO_GITGUD_ACCESS_TOKEN
           hugo --minify
           echo '{ "github": { "silent": true } }' > public/vercel.json
 
