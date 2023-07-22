@@ -3,5 +3,7 @@
 {{ $GameCommitInfoUrl := add $GameRepoBaseUrl "/repository/commits"}}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
 
-{{ $commits_data := getJSON $GameCommitInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN )  }}
-{{ return $commits_data }}
+{{ $result := getJSON $GameCommitInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
+{{ if ne $result nil }}
+	{{ return $result }}
+{{ end }}

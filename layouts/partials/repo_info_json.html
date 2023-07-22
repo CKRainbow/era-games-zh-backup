@@ -3,5 +3,7 @@
 {{ $GameRepoInfoUrl := $GameRepoBaseUrl }}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
 
-{{ $repo_data := getJSON $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN )  }}
-{{ return $repo_data }}
+{{ $result := getJSON $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
+{{ if ne $result nil }}
+	{{ return $result }}
+{{ end }}

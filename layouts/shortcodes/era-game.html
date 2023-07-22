@@ -5,8 +5,8 @@
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
 {{ $GameFileDownloadUrl := add $GameRepoBaseUrl "/repository/archive.zip"}}
 
-{{ $repo_data := partialCached "repo_info_json.html" $GameRepoId }}
-{{ $commits_data := partialCached "commits_info_json.html" $GameRepoId }}
+{{ $repo_data := partialCached "repo_info_json.html" $GameRepoId $GameRepoId }}
+{{ $commits_data := partialCached "commits_info_json.html" $GameRepoId $GameRepoId }}
 
 {{ $GameName := $repo_data.name }}
 {{ $GameDes  := $repo_data.description }}
