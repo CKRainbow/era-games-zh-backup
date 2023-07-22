@@ -3,7 +3,7 @@ title = "其他同人世界观"
 menu = "main"
 +++
 
-# 其他同人世界观
+<!-- # 其他同人世界观
 
 ## eraMegaten
 
@@ -239,4 +239,4 @@ menu = "main"
 
 > 淫妖蟲同人
 
-{{< era-game era-ntr >}}
+{{< era-game era-ntr >}} -->
