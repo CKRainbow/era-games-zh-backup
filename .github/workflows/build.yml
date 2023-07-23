@@ -27,6 +27,8 @@ jobs:
           extended: true
 
       - name: 3. Build
+        env: 
+          HUGO_GITGUD_ACCESS_TOKEN: ${{ secrets.HUGO_GITGUD_ACCESS_TOKEN }}
         run: |
           sudo timedatectl set-timezone Asia/Shanghai
           hugo --minify
