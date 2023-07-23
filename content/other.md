@@ -9,12 +9,11 @@ menu = "main"
 
 | 中文 era 游戏社群  |                       URL                       |
 | :----------------: | :---------------------------------------------: |
-|        主页        |      [`erag.eu.org`](https://erag.eu.org/)      |
-| 索引目录（含简介） | [`list.erag.eu.org`](https://list.erag.eu.org/) |
-|      维基百科      | [`wiki.erag.eu.org`](https://wiki.erag.eu.org/) |
-|    在线分流网盘    |  [`pan.erag.eu.org`](https://pan.erag.eu.org/)  |
+|        主页        |      [`erag.eu.org`](https://erazhgame.xyz/)      |
+|      维基百科      | [`era.miraheze.org`](https://era.miraheze.org/) |
 |   源码全收录计划   |  [`git.erag.eu.org`](https://git.erag.eu.org/)  |
-|    开发系列教程    |  [`dev.erag.eu.org`](https://dev.erag.eu.org/)  |
+|    开发系列教程    |  [`dev.erag.eu.org`](https://lackbfun.pages.dev/era/era-diy-tutorial-1-introduction/)  |
+|    在线分流网盘    |  [`pan.erag.eu.org`](https://pan.erag.eu.org/)  |
 
 |  Telegram   |                                                                                                                                               |
 | :---------: | :-------------------------------------------------------------------------------------------------------------------------------------------: |

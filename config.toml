@@ -1,6 +1,6 @@
 # Base URL used when generating links to your pages
 # Set to the URL for your site
-baseURL = "https://erag.eu.org"
+baseURL = "https://erazhgame.xyz"
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
