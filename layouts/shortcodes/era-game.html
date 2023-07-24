@@ -36,8 +36,8 @@
           </button>
         </span>
         {{ range $i, $commit := $commits_data }}
-          {{ if gt $i 0 }}
-            {{ if lt $i 4}}
+          {{ if ge $i 0 }}
+            {{ if lt $i 3}}
               <span class="era-game-log">{{- $commit.message -}}</span>
             {{ end }}
           {{ end }}
