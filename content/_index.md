@@ -12,7 +12,7 @@
 | [`era.miraheze.org`](https://era.miraheze.org/) |                                                ※_Wiki 建设中_                                                 |             《[中文 era 游戏**维基百科**](https://era.miraheze.org/)》              |
 |  [`gitgud.io/era-games-zh`](http://gitgud.io/era-games-zh/)   | [![](https://img.shields.io/badge/gitgud.io-era--games--zh-blue?logo=gitlab)](https://gitgud.io/era-games-zh) |      《[中文 era 游戏**全收录计划**](https://gitgud.io/era-games-zh/)》       |
 |  [`dev.erag.eu.org`](https://lackbfun.pages.dev/era/era-diy-tutorial-1-introduction/)   |                                              系列教程已更新完成                                               | 《[**零基础开发** era 游戏系列](https://lackbfun.pages.dev/era/era-diy-tutorial-1-introduction/)》 |
-|  [`pan.erag.eu.org`](https://pan.erag.eu.org/)  |                                                   在线网盘                                                    |                                       资源下载分流（停止更新）                              |
+|  ~~`pan.erag.eu.org`~~  |                                                   ~~在线网盘~~                                                    |                                       ~~资源下载分流~~<br>無法使用，下載請善用本站                              |
 |  [`api.erag.eu.org`](https://api.erag.eu.org/)  |                                                  ~~异常运行中~~                                                   |             《[中文 era **版本信息**数据库](https://lackb.fun/era/era-api/)》             |
 |              ~~`bbs.erag.eu.org`~~              |                                           ※_我们真的需要 CMS 吗？_                                            |                                     在线 BBS（论坛）                                      |
 
