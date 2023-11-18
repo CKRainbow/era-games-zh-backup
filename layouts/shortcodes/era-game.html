@@ -1,4 +1,5 @@
 {{ $GameRepoId := .Get 0 }}
+{{ $Branch     := .Get 1 | default "master" }}
 {{/* $GameType := .Get 1 | default "original" */}}
 {{/*  {{ $GameApiUrl := add "https://api.erag.eu.org/" $GameName }}
 {{ $GameInfoUrl := add $GameApiUrl "/version/json" }}  */}}
