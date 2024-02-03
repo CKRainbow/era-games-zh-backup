@@ -1,10 +1,13 @@
 {{ $GameRepoId := .Get 0 }}
 {{ $Branch     := .Get 1 | default "master" }}
+{{ $GameFileDownloadUrl := .Get 2 | default "" }}
 {{/* $GameType := .Get 1 | default "original" */}}
 {{/*  {{ $GameApiUrl := add "https://api.erag.eu.org/" $GameName }}
 {{ $GameInfoUrl := add $GameApiUrl "/version/json" }}  */}}
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
-{{ $GameFileDownloadUrl := add $GameRepoBaseUrl "/repository/archive.zip"}}
+{{ if not $GameFileDownloadUrl }}
+  {{ $GameFileDownloadUrl := add $GameRepoBaseUrl "/repository/archive.zip"}}
+{{ end }}
 
 {{ $repo_data := partialCached "repo_info_json.html" $GameRepoId $GameRepoId }}
 {{ $commits_data := partialCached "commits_info_json.html" $GameRepoId $GameRepoId }}

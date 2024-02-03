@@ -19,6 +19,17 @@ menu = "main"
     《<ruby><rb>女神转生</rb><rp>（</rp><rt>Megami Tensei</rt><rp>）</rp></ruby>》系列是《女神异闻录》系列的本家。\
     对，《<ruby><rb>女神异闻录</rb><rp>（</rp><rt>PERSONA</rt><rp>）</rp></ruby>》是它的外传。
 
+
+## eraUma
+
+> 赛马娘系列同人
+
+{{< era-game "29332" "https://gitgud.io/era-games-zh/doujin/erauma/-/releases/permalink/latest" >}}
+
+> 本作由「SLeader」推荐。
+
+真女神轉生的 era 版，各種戰鬥探索等系統十分完整、劇情也很豐富，角色也讓人很有帶入感。除了系統較為複雜需要一段時間適應以外，這是一款十分推薦的作品。
+
 ## eraSQC
 
 > Succubus Quest 同人
