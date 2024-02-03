@@ -24,11 +24,11 @@ menu = "main"
 
 > 赛马娘系列同人
 
-{{< era-game "29332" "https://gitgud.io/era-games-zh/doujin/erauma/-/releases/permalink/latest" >}}
+{{< era-game "29332" "master" "https://gitgud.io/era-games-zh/doujin/erauma/-/releases/permalink/latest" >}}
 
 > 本作由「SLeader」推荐。
 
-真女神轉生的 era 版，各種戰鬥探索等系統十分完整、劇情也很豐富，角色也讓人很有帶入感。除了系統較為複雜需要一段時間適應以外，這是一款十分推薦的作品。
+以某頁遊公司旗下馬耳學生妹作品爲世界觀制作的一款同人文字冒險遊戲。該世界觀的核心圍繞娘化的名賽馬和歷史上曾發生過的比賽展開。玩家將在遊戲中扮演訓練員——即負責訓練馬娘的角色——與諸多馬娘邂逅並創作獨屬于玩家和其負責馬娘的故事。
 
 ## eraSQC
 
