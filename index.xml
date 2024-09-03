@@ -1,29 +1,297 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>中文 era 宇宙</title><link>https://erazhgame.xyz/</link><description>Recent content on 中文 era 宇宙</description><generator>Hugo</generator><language>zh</language><copyright>Copyright © 2022, Era Zh Group.</copyright><lastBuildDate>Fri, 03 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://erazhgame.xyz/index.xml" rel="self" type="application/rss+xml"/><item><title>Markdown Syntax Guide</title><link>https://erazhgame.xyz/blog/markdown-syntax/</link><pubDate>Fri, 03 Jan 2020 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/blog/markdown-syntax/</guid><description>&lt;p>For a quick cheatsheet, check out &lt;a href="https://simplemde.com/markdown-guide">https://simplemde.com/markdown-guide&lt;/a>.&lt;/p>
 &lt;hr>
-&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>东方世界观</title><link>https://erazhgame.xyz/touhou/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/touhou/</guid><description>东方世界观 eraTheWorld eraTW 最后更新于 2023-10-23T01:54:34.000&amp;#43;08:00 最新改动： 直接下载 fix: 將編碼更改為utf-8 with BOM Merge branch &amp;#39;master&amp;#39; of ssh.gitgud.io:era-games-zh/touhou/eraTW fix: 修正弁弁口上報錯 本作由「傲視長空」推荐。
-簡稱 eraTW。這是一個擁有時間停止能力的人，在幻想鄉中生活並與各種少女們打交道(順便偷內褲)的日常故事。
-這大概是所有 era 遊戲中完成度最高的了，口上極其豐富，事件種類繁多，漢化也很完整，有著 era 類最多的補丁，日本那邊更新也非常勤勞，而且還是純愛。只要有想玩 era 就十分推薦玩玩看這款，即使沒接觸過東方也沒關係，通過遊戲內與各個角色互動也能慢慢了解她們的魅力。
-eratohoYM AE M eratohoYMAEM eratohoYM&amp;#43;AE&amp;#43;M 汉化版 最后更新于 2024-08-26T10:45:42.000&amp;#43;08:00 最新改动： 直接下载 修改版本信息 添加汉化标识 更新1044_1 update: 4290 update: 4290 本作由「CK Rainbow」推荐。
-机缘巧合之下，你获得了一本《东方调教典》，书上详尽地记述了各类调教的方法，并且会替你营造出适合调教的环境，甚至还送了一间洋馆给你。
-同时，你也遭受了诅咒，必须在一定时间内赚足百万元，才能够将诅咒解除。
-幻想乡中无论有名还是无名的角色，或许都将成为你的囊中之物……
-丰富的游戏机制，调教指令，角色特有指令等，同时具备一定的挑战性和不错的多周目游玩体验。目前拥有截至绀珠传的全部角色，以及大量旧作、二创、梗角色，并且拥有相对较多的口上（辉针城前）和大量日常事件。
-可以说是 era 早期的本格调教（贩卖人口）的巅峰。
-eratohoЯeverse eratohoЯeverse 最后更新于 2024-02-20T12:09:50.000&amp;#43;00:00 最新改动： 直接下载 Revert &amp;#34;好像弄錯地方了，對不住&amp;#34; This reverts commit 3ed3ac7a44b51d6f073702ceab898aae076c8403 Merge branch &amp;#39;master&amp;#39; of ssh.</description></item><item><title>其他同人世界观</title><link>https://erazhgame.xyz/doujin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/doujin/</guid><description>其他同人世界观 eraMegaten 女神转生1 系列同人
-eraMegaten 女神转生同人 最后更新于 2022-11-04T17:06:20.000&amp;#43;08:00 最新改动： 直接下载 將所有編碼轉換為utf-8 with BOM 將編碼轉為utf-8 with BOM fix: 修正 README.md 的游戏名错误 本作由「傲視長空」推荐。
-真女神轉生的 era 版，各種戰鬥探索等系統十分完整、劇情也很豐富，角色也讓人很有帶入感。除了系統較為複雜需要一段時間適應以外，這是一款十分推薦的作品。
-eraSQC Succubus Quest 同人
-eraSQC Succubus Quest 同人 最后更新于 2024-04-25T00:54:23.000&amp;#43;08:00 最新改动： 直接下载 fix: 調整config以增進排版 fix: 修正轉換周目時助手相關變數未清零造成之錯誤 fix: 修正助手變更時會顯示出變數名 本作由「傲視長空」推荐。
-由 Succubus Quest 改編而來的作品。日文原版為 SQN，N 為 NTR 之意，漢化者將 NTR 部分魔改為可選，故稱作 SQC，C 為 Chinese 之意。本作調教系統極為優秀，且近百位角色的口上皆十分豐富，在排除 NTR 部分後成為一部十分優秀的純愛之作。無論是否玩過 era 系列都十分推薦的一作。
-日文原版已更新至 1.0(然後作者跑去做 eraAM 了)，漢化版本有兩種，一是較舊的 0.52，為與本體 0.52 版較為類似的版本，另一個是 0.52+，含有大量魔改，包括增加一些新特性及補上日文 0.52 至 1.</description></item><item><title>相关链接</title><link>https://erazhgame.xyz/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/other/</guid><description>相关链接 我们运营的平台 中文 era 游戏社群 URL 主页 erag.eu.org 维基百科 era.miraheze.org 源码全收录计划 git.erag.eu.org 开发系列教程 dev.erag.eu.org 在线分流网盘 pan.erag.eu.org Telegram 通知频道 主频道 / 档案室 / 常见 Q&amp;amp;A 讨论群组 闲聊区 / 技术群(与 DC 互通) Discord 综合社区 友情链接 网站 链接 eramaker 本家(漠々ト、獏公式網站) http://cbaku.com/ Emuera 官方发布网站 https://ja.osdn.net/projects/emuera/ 東方系列 era 游戏日文 Wiki https://seesaawiki.jp/eratoho/ 非東方系列 era 游戏日文 Wiki https://seesaawiki.jp/eraseries/ 英文 era 游戏综合 Wiki https://wiki.eragames.rip/ /hgg/ - Hentai Games General 的 era 集中串 https://prolikewoah.com/hgg/res/47723.html 下载 eramaker 予備うｐろだ 1 https://u9.getuploader.com/cirno09sub 旧 era 游戏储备库（已废弃） http://era.</description></item><item><title>原创世界观</title><link>https://erazhgame.xyz/original/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/original/</guid><description>原创世界观 eraAkumaMaid eraAkumaMaid 最后更新于 2024-03-04T22:53:36.000&amp;#43;08:00 最新改动： 直接下载 del: 移除CI文件 fix: 修复 GameBase.csv 标题格式错误的问题 修正 本作由「傲視長空」推荐。
-簡稱 eraAM。有位從天而降的惡魔女僕，在吸取你靈魂之後發現你可以復活，於是與你簽訂長期的契約，成為你的炮友。
-由 SQ 作者製作出的新作，角色很多而且口上極為豐富，事件種類繁多，以豐富度而言個人覺得僅次 TW，且同樣日本方更新勤快，強烈建議 era 新老手都玩一遍。
-在群內可以找到原作者開的 AM 討論群，若會日文、玩的是生肉且有關於更新的想法，可以前往與作者討論。
-era 魔界牧場 era魔界牧場 最后更新于 2023-02-04T19:02:56.000&amp;#43;08:00 最新改动： 直接下载 更新ci 更新至 0.623 era魔界牧場0.571 本作由「傲視長空」推荐。
-身處魔界的你，在魔界中開設牧場，悠閒的生活著。一天，魔王軍的朋友忽然帶著「靈力抽出裝置」到來，要你調教戰爭中捕獲的人類，並用其將靈力抽取出來。
-本作是新上傳的遊戲，我只知道他是以榨乳為目的，而且部分未做完，尚有未實裝的部分，個人還沒有玩過。
-eraQueenA+ eraQueenA&amp;#43; 最后更新于 2022-06-22T15:12:23.000&amp;#43;08:00 最新改动： 直接下载 eraQueenA&amp;#43; 人外拓展版2021.11 Initial commit 本作由「傲視長空」推荐。
-女性向佳作，調教男人賺錢。口上算是豐富，日常也有許多事情可做。喜歡調教男人的話不容錯過。
-eraRL2 eraRL2 最后更新于 2022-06-22T10:50:57.000&amp;#43;08:00 最新改动： 直接下载 eraRL2 V1.0 tetho完全漢化版 本作由「傲視長空」推荐。
-與第一代有很大的差別，這代基本可以看作用 era 引擎做成的 RPG 製作大師遊戲，調教系統十分特別，類似於 JSK 工房那種調教模式，十分奇葩的一款遊戲。
-目前的漢化最新版為 0.</description></item></channel></rss>
+&lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>东方世界观</title><link>https://erazhgame.xyz/touhou/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/touhou/</guid><description>&lt;h1 id="东方世界观">东方世界观&lt;/h1>
+&lt;h2 id="eratheworld">eraTheWorld&lt;/h2>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="era-game-box">
+ &lt;h3 class="era-game-title">
+ &lt;span>&lt;b>eraTW&lt;/b>
+ &lt;/h3>
+ &lt;div class="era-game-desc" title="">&lt;/div>
+ &lt;div class="era-game-meta">
+ &lt;span class="update-time">最后更新于 2023-10-23T01:54:34.000&amp;#43;08:00&lt;/span>
+ &lt;/div>
+ &lt;div class="era-game-content">
+ &lt;div>
+ &lt;span class="era-game-link">
+ &lt;span>&lt;a href="https://gitgud.io/era-games-zh/touhou/eraTW/-/commit/9aaf4c455cbc6ba6a54c3f2e66f21e8647525b40" target="_blank" rel="noopener noreferrer">最新改动&lt;/a>：&lt;/span>
+ &lt;button class="download-button" onclick="window.open('https:\/\/gitgud.io\/api\/v4\/projects\/18234\/repository\/archive.zip')">
+ &lt;div class="docs-icon">&lt;svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24">&lt;path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">&lt;/pa</description></item><item><title>其他同人世界观</title><link>https://erazhgame.xyz/doujin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/doujin/</guid><description>&lt;h1 id="其他同人世界观">其他同人世界观&lt;/h1>
+&lt;h2 id="eramegaten">eraMegaten&lt;/h2>
+&lt;blockquote>
+&lt;p>女神转生&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> 系列同人&lt;/p>
+&lt;/blockquote>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="era-game-box">
+ &lt;h3 class="era-game-title">
+ &lt;span>&lt;b>eraMegaten&lt;/b>
+ &lt;/h3>
+ &lt;div class="era-game-desc" title="女神转生同人">女神转生同人&lt;/div>
+ &lt;div class="era-game-meta">
+ &lt;span class="update-time">最后更新于 2022-11-04T17:06:20.000&amp;#43;08:00&lt;/span>
+ &lt;/div>
+ &lt;div class="era-game-content">
+ &lt;div>
+ &lt;span class="era-game-link">
+ &lt;span>&lt;a href="https://gitgud.io/era-games-zh/doujin/eraMegaten/-/commit/c933bd14775cb93bae392bcb24e875b678500bb1" target="_blank" rel="noopener noreferrer">最新改动&lt;/a>：&lt;/span>
+ &lt;button class="download-button" onclick="window.open('https:\/\/gitgud.io\/api\/v4\/projects\/18232\/repository\/archive.zip')">
+ &lt;div class="docs-icon">&lt;svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24">&lt;path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">&lt;/pa</description></item><item><title>相关链接</title><link>https://erazhgame.xyz/other/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/other/</guid><description>&lt;h1 id="相关链接">相关链接&lt;/h1>
+&lt;h2 id="我们运营的平台">我们运营的平台&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">中文 era 游戏社群&lt;/th>
+ &lt;th style="text-align: center">URL&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">主页&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://erazhgame.xyz/">&lt;code>erag.eu.org&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">维基百科&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://era.miraheze.org/">&lt;code>era.miraheze.org&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">源码全收录计划&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://git.erag.eu.org/">&lt;code>git.erag.eu.org&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">开发系列教程&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://lackbfun.pages.dev/era/era-diy-tutorial-1-introduction/">&lt;code>dev.erag.eu.org&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">在线分流网盘&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://pan.erag.eu.org/">&lt;code>pan.erag.eu.org&lt;/code>&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Telegram&lt;/th>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">通知频道&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://t.me/era_games">主频道&lt;/a> / &lt;a href="https://t.me/era_archives">档案室&lt;/a> / &lt;a href="https://t.me/era_QnA">常见 Q&amp;amp;A&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">讨论群组&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://t.me/era_discuss">闲聊区&lt;/a> / &lt;a href="https://t.me/era_techs">技术群(与 DC 互通)&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;strong>Discord&lt;/strong>&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">综合社区&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/xXXGfwddrw">&lt;img src="https://img.shields.io/discord/880635750545252353?style=flat&amp;label=Discord&amp;logo=discord&amp;logoColor=white">&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="友情链接">友情链接&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">网站&lt;/th>
+ &lt;th style="text-align: center">链接&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">eramaker 本家(漠々ト、獏公式網站)&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="http://cbaku.com/">http://cbaku.com/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">Emuera 官方发布网站&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://ja.osdn.net/projects/emuera/">https://ja.osdn.net/projects/emuera/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">東方系列 era 游戏日文 Wiki&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://seesaawiki.jp/eratoho/">https://seesaawiki.jp/eratoho/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">非東方系列 era 游戏日文 Wiki&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://seesaawiki.jp/eraseries/">https://seesaawiki.jp/eraseries/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">英文 era 游戏综合 Wiki&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://wiki.eragames.rip/">https://wiki.eragames.rip/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">/hgg/ - Hentai Games General 的 era 集中串&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://prolikewoah.com/hgg/res/47723.html">https://prolikewoah.com/hgg/res/47723.html&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;strong>下载&lt;/strong>&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">eramaker 予備うｐろだ 1&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://u9.getuploader.com/cirno09sub">https://u9.getuploader.com/cirno09sub&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">旧 era 游戏储备库（已废弃）&lt;/td>
+ &lt;td style="text-align: center">&lt;del>&lt;a href="http://era.moe.hm/cgi/era/index.html">http://era.moe.hm/cgi/era/index.html&lt;/a>&lt;/del>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">新 era 游戏储备库&lt;!-- raw HTML omitted -->（账号密码都是 &lt;code>era&lt;/code>）&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="http://book-shelf-end.com/eras">http://book-shelf-end.com/eras&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;strong>揭示板&lt;/strong>（BBS）&lt;/td>
+ &lt;td style="text-align: center">&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">era 板&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="http://jbbs.shitaraba.net/otaku/12839/">http://jbbs.shitaraba.net/otaku/12839/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">era 板+&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://jbbs.shitaraba.net/otaku/16783/">https://jbbs.shitaraba.net/otaku/16783/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="相关-discord">相关 Discord&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">Discord&lt;/th>
+ &lt;th style="text-align: center">邀请链接&lt;/th>
+ &lt;th style="text-align: center">说明&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/yQRYkNMuWr">eraMegaten&lt;/a>&lt;/td>
+ &lt;td style="text-align: center">&lt;code>https://discord.gg/yQRYkNMuWr&lt;/code>&lt;/td>
+ &lt;td style="text-align: center">MGT 官方 Discord&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/Ak5JPRN">era 悪魔でメイド&lt;/a>&lt;/td>
+ &lt;td style="text-align: center">&lt;code>https://discord.gg/Ak5JPRN&lt;/code>&lt;/td>
+ &lt;td style="text-align: center">AM 官方 Discord&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/p5rb5uK">eraBENAMI&lt;/a>&lt;/td>
+ &lt;td style="text-align: center">&lt;code>https://discord.gg/p5rb5uK&lt;/code>&lt;/td>
+ &lt;td style="text-align: center">BENAMI 官方 Discord&lt;!-- raw HTML omitted -->（即 EE 原作者）&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/PxrAKAuKAU">Era Games General&lt;/a>&lt;/td>
+ &lt;td style="text-align: center">&lt;code>https://discord.gg/PxrAKAuKAU&lt;/code>&lt;/td>
+ &lt;td style="text-align: center">/egg/ 英文 era 游戏综合 Discord&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;a href="https://discord.gg/nZZC5BQ7Rh">eratoho TheWorld&lt;/a>&lt;/td>
+ &lt;td style="text-align: center">&lt;code>https://discord.gg/nZZC5BQ7Rh&lt;/code>&lt;/td>
+ &lt;td style="text-align: center">非官方中文 TW Discord&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h3 id="eraal-k-官方网站">eraAL K 官方网站&lt;/h3>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">eraAL K&lt;/th>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">作者网站&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://1962.game-info.wiki/">https://1962.game-info.wiki/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">本体下载&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://ux.getuploader.com/eraALK/">https://ux.getuploader.com/eraALK/&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">补丁图库&lt;/td>
+ &lt;td style="text-align: center">&lt;a href="https://www.mediafire.com/folder/gafyfvd2fw23z/%E7%94%BB%E5%83%8F">https://www.mediafire.com/folder/gafyfvd2fw23z/画像&lt;/a>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table></description></item><item><title>原创世界观</title><link>https://erazhgame.xyz/original/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/original/</guid><description>&lt;h1 id="原创世界观">原创世界观&lt;/h1>
+&lt;h2 id="eraakumamaid">eraAkumaMaid&lt;/h2>
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;div class="era-game-box">
+ &lt;h3 class="era-game-title">
+ &lt;span>&lt;b>eraAkumaMaid&lt;/b>
+ &lt;/h3>
+ &lt;div class="era-game-desc" title="">&lt;/div>
+ &lt;div class="era-game-meta">
+ &lt;span class="update-time">最后更新于 2024-03-04T22:53:36.000&amp;#43;08:00&lt;/span>
+ &lt;/div>
+ &lt;div class="era-game-content">
+ &lt;div>
+ &lt;span class="era-game-link">
+ &lt;span>&lt;a href="https://gitgud.io/era-games-zh/original/eraAkumaMaid/-/commit/affa0305203a218dd2eda91135d6ea86e5d7016a" target="_blank" rel="noopener noreferrer">最新改动&lt;/a>：&lt;/span>
+ &lt;button class="download-button" onclick="window.open('https:\/\/gitgud.io\/api\/v4\/projects\/18233\/repository\/archive.zip')">
+ &lt;div class="docs-icon">&lt;svg class="css-i6dzq1" stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-width="2" stroke="currentColor" height="20" width="20" viewBox="0 0 24 24">&lt;path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">&lt;/pa</description></item></channel></rss>
