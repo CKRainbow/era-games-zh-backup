@@ -2,8 +2,11 @@
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
 {{ $GameRepoInfoUrl := $GameRepoBaseUrl }}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
+{{ $opt := dict 
+	"headers" (dict "PRIVATE-TOKEN" $ACCESS_TOKEN)
+}}
 
-{{ with resources.GetRemote $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN)}}
+{{ with resources.GetRemote $GameRepoInfoUrl $opt}}
 	{{ with .Err }}
 		{{ errorf "%s" .}}
 	{{ else }}

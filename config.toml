@@ -11,9 +11,10 @@ author = "lackbfun"
 copyright = "Copyright © 2022, Era Zh Group."
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
-[languages.zh]
-  languageName = "Chinese"
-  contentDir = "content"
+[languages]
+  [languages.zh]
+    languageName = "Chinese"
+    contentDir = "content"
 
 # Generate a nice robots.txt for SEO
 enableRobotsTXT = true
