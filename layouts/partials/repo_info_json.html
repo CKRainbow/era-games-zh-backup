@@ -3,7 +3,15 @@
 {{ $GameRepoInfoUrl := $GameRepoBaseUrl }}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
 
-{{ $result := getJSON $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
+{{ with resources.GetRemote $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN)}}
+	{{ with .Err }}
+		{{ errorf "%s" .}}
+	{{ else }}
+		{{ $result := . | transform.Unmarshal }}
+	{{ end }}
+{{ else }}
+	{{ errorf "Unable to get remote resource %q" $GameRepoInfoUrl }}
+{{ end }}
 {{ if ne $result nil }}
 	{{ return $result }}
 {{ end }}
