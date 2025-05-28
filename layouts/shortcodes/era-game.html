@@ -7,7 +7,7 @@
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
 
 {{ if not $GameFileDownloadUrl }}
-  {{ $GameFileDownloadUrl = add $GameRepoBaseUrl "/repository/archive.zip" }}
+  {{ $GameFileDownloadUrl = add $GameRepoBaseUrl "/repository/archive.zip?sha=" $Branch}}
 {{ end }}
 
 {{ $repo_data := partialCached "repo_info_json.html" $GameRepoId $GameRepoId }}
