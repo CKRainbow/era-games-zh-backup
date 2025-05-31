@@ -11,7 +11,7 @@
 {{ end }}
 
 {{ $repo_data := partialCached "repo_info_json.html" $GameRepoId $GameRepoId }}
-{{ $commits_data := partialCached "commits_info_json.html" $GameRepoId $GameRepoId }}
+{{ $commits_data := partialCached "commits_info_json.html" . (printf "%s-%s" $GameRepoId $Branch) }}
 
 {{ $GameName := $repo_data.name }}
 {{ $GameDes  := $repo_data.description }}

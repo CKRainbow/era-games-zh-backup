@@ -1,6 +1,8 @@
-{{ $GameRepoId := . }}
+{{ $GameRepoId := .Get 0 }}
+{{ $Branch     := .Get 1 | default "master" }}
 {{ $GameRepoBaseUrl := add "https://gitgud.io/api/v4/projects/" $GameRepoId}}
 {{ $GameCommitInfoUrl := add $GameRepoBaseUrl "/repository/commits"}}
+{{ $GameCommitInfoUrl := add $GameCommitInfoUrl "?ref_name=" $Branch }}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
 
 {{ $result := getJSON $GameCommitInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
