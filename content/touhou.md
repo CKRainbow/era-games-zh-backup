@@ -17,7 +17,7 @@ menu = "main"
 
 ## eraTW画蛇又添足
 
-{{< era-game "28180" >}}
+{{< era-game "28180" "main" >}}
 
 > 本作由「傲視長空」推荐。
 
