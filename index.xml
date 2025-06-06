@@ -3,15 +3,9 @@
 &lt;p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.&lt;/p></description></item><item><title>东方世界观</title><link>https://erazhgame.xyz/touhou/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/touhou/</guid><description>东方世界观 eraTheWorld eraTW 最后更新于 2023-10-23T01:54:34.000&amp;#43;08:00 最新改动： 直接下载 fix: 將編碼更改為utf-8 with BOM Merge branch &amp;#39;master&amp;#39; of ssh.gitgud.io:era-games-zh/touhou/eraTW fix: 修正弁弁口上報錯 本作由「傲視長空」推荐。
 簡稱 eraTW。這是一個擁有時間停止能力的人，在幻想鄉中生活並與各種少女們打交道(順便偷內褲)的日常故事。
 這大概是所有 era 遊戲中完成度最高的了，口上極其豐富，事件種類繁多，漢化也很完整，有著 era 類最多的補丁，日本那邊更新也非常勤勞，而且還是純愛。只要有想玩 era 就十分推薦玩玩看這款，即使沒接觸過東方也沒關係，通過遊戲內與各個角色互動也能慢慢了解她們的魅力。
-eraTW画蛇又添足 eraTW画蛇又添足 这个版本是基于迷子版的ERATW 4.881，对游戏基本内容进行加笔与改造，整合一些补丁，增加一些新功能的版本 最后更新于 最新改动： 直接下载 本作由「傲視長空」推荐。
+eraTW画蛇又添足 eraTW画蛇又添足 这个版本是基于迷子版的ERATW 4.881，对游戏基本内容进行加笔与改造，整合一些补丁，增加一些新功能的版本 最后更新于 2024-09-26T19:55:00.000&amp;#43;08:00 最新改动： 直接下载 部分未检出重定义问题修复 Merge remote-tracking branch &amp;#39;eraTW画蛇又添足/main&amp;#39; into modification_developing Merge branch &amp;#39;main&amp;#39; into &amp;#39;main&amp;#39; 修复了在放尿判定时由于取模不当造成的数组溢出 See merge request era-games-zh/touhou/eratw-sub-modding!8 本作由「傲視長空」推荐。
 eraTW的漢化魔改版。新增許多自製口上、口上加筆及一些魔改內容。
-eratohoYM AE M eratohoYMAEM eratohoYM&amp;#43;AE&amp;#43;M 汉化版 最后更新于 2025-05-12T20:37:50.000&amp;#43;08:00 最新改动： 直接下载 update version update version update: 大妖精二号口上 update: 阿求二号口上 本作由「CK Rainbow」推荐。
-机缘巧合之下，你获得了一本《东方调教典》，书上详尽地记述了各类调教的方法，并且会替你营造出适合调教的环境，甚至还送了一间洋馆给你。
-同时，你也遭受了诅咒，必须在一定时间内赚足百万元，才能够将诅咒解除。
-幻想乡中无论有名还是无名的角色，或许都将成为你的囊中之物……
-丰富的游戏机制，调教指令，角色特有指令等，同时具备一定的挑战性和不错的多周目游玩体验。目前拥有截至绀珠传的全部角色，以及大量旧作、二创、梗角色，并且拥有相对较多的口上（辉针城前）和大量日常事件。
-可以说是 era 早期的本格调教（贩卖人口）的巅峰。
-eratohoЯeverse eratohoЯeverse 最后更新于 2024-02-20T12:09:50.000&amp;#43;00:00 最新改动： 直接下载 Revert &amp;#34;好像弄錯地方了，對不住&amp;#34; This reverts commit 3ed3ac7a44b51d6f073702ceab898aae076c8403 Merge branch &amp;#39;master&amp;#39; of ssh.</description></item><item><title>其他同人世界观</title><link>https://erazhgame.xyz/doujin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/doujin/</guid><description>其他同人世界观 eraMegaten 女神转生1 系列同人
+eratohoYM AE M eratohoYMAEM eratohoYM&amp;#43;AE&amp;#43;M 汉化版 最后更新于 2025-05-12T20:37:50.000&amp;#43;08:00 最新改动： 直接下载 update version update version update: 大妖精二号口上 update: 阿求二号口上 本作由「CK Rainbow」推荐。</description></item><item><title>其他同人世界观</title><link>https://erazhgame.xyz/doujin/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://erazhgame.xyz/doujin/</guid><description>其他同人世界观 eraMegaten 女神转生1 系列同人
 ShinEraTensei 女神转生同人 最后更新于 2025-05-29T13:13:51.000&amp;#43;08:00 最新改动： 直接下载 fix: 神秘男子 fix: 平将门的门不开的问题 chore: 修正了这样吗-&amp;gt;听课程的一处笔误 本作由「傲視長空」推荐。
 真女神轉生的 era 版，各種戰鬥探索等系統十分完整、劇情也很豐富，角色也讓人很有帶入感。除了系統較為複雜需要一段時間適應以外，這是一款十分推薦的作品。
 eraSQC Succubus Quest 同人
