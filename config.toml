@@ -60,3 +60,12 @@ ignoreErrors = ["error-disable-taxonomy"]
   # Google Analytics 4 媒体资源
   # https://support.google.com/analytics/answer/9304153
   googleAnalytics = "G-BJ1QKT4R3J"
+
+# 缓存配置
+[caches]
+  [caches.getresource]
+    dir = ":resourceDir/_gen"
+    maxAge = "48h"
+  [caches.getjson]
+    dir = ":resourceDir/_gen"
+    maxAge = "48h"

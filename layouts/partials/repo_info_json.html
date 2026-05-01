@@ -3,7 +3,11 @@
 {{ $GameRepoInfoUrl := $GameRepoBaseUrl }}
 {{ $ACCESS_TOKEN := os.Getenv "HUGO_GITGUD_ACCESS_TOKEN"}}
 
-{{ $result := getJSON $GameRepoInfoUrl (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
-{{ if ne $result nil }}
-	{{ return $result }}
+{{ $opts := dict "headers" (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
+{{ $result := resources.GetRemote $GameRepoInfoUrl $opts }}
+{{ if and $result (eq $result.Err nil) }}
+	{{ $data := $result.Content | transform.Unmarshal }}
+	{{ return $data }}
+{{ else }}
+	{{ return nil }}
 {{ end }}
