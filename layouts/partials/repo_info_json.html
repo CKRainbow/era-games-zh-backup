@@ -6,7 +6,12 @@
 {{ $opts := dict "headers" (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
 {{ $result := resources.GetRemote $GameRepoInfoUrl $opts }}
 {{ if and $result (eq $result.Err nil) }}
-	{{ return ($result.Content | transform.Unmarshal) }}
+	{{ $isJson := in $result.MediaType.SubType "json" }}
+	{{ if $isJson }}
+		{{ return ($result.Content | transform.Unmarshal) }}
+	{{ else }}
+		{{ return nil }}
+	{{ end }}
 {{ else }}
 	{{ return nil }}
 {{ end }}
