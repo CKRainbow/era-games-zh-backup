@@ -8,8 +8,7 @@
 {{ $opts := dict "headers" (dict "PRIVATE-TOKEN" $ACCESS_TOKEN) }}
 {{ $result := resources.GetRemote $GameCommitInfoUrl $opts }}
 {{ if and $result (eq $result.Err nil) }}
-	{{ $data := $result.Content | transform.Unmarshal }}
-	{{ return $data }}
+	{{ return ($result.Content | transform.Unmarshal) }}
 {{ else }}
 	{{ return nil }}
 {{ end }}
