@@ -10,16 +10,21 @@
   {{ $GameFileDownloadUrl = add $GameRepoBaseUrl "/repository/archive.zip?sha=" $Branch}}
 {{ end }}
 
-{{ $repo_data := partialCached "repo_info_json.html" $GameRepoId $GameRepoId }}
-{{ $commits_data := partialCached "commits_info_json.html" . (printf "%s-%s" $GameRepoId $Branch) }}
+{{ $repo_data := index site.Data.gitgud $GameRepoId }}
+{{ $commits_data := index $repo_data.branches $Branch }}
 
 {{ $GameName := $repo_data.name }}
 {{ $GameDes  := $repo_data.description }}
 
 {{ $commit := index $commits_data 0 }}
-{{ $commit_msg := $commit.message }}
-{{ $commit_url := $commit.web_url }}
-{{ $update_time := $commit.committed_date }}
+{{ $commit_msg := "" }}
+{{ $commit_url := "" }}
+{{ $update_time := "" }}
+{{ if $commit }}
+  {{ $commit_msg = $commit.message }}
+  {{ $commit_url = $commit.web_url }}
+  {{ $update_time = $commit.committed_date }}
+{{ end }}
 
 <div class="era-game-box">
   <h3 class="era-game-title">

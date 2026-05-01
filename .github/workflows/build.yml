@@ -34,6 +34,16 @@ jobs:
           hugo-version: "0.119.0"
           extended: true
 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Fetch Gitgud API data
+        env:
+          HUGO_GITGUD_ACCESS_TOKEN: ${{ secrets.HUGO_GITGUD_ACCESS_TOKEN }}
+        run: python scripts/fetch_gitgud_data.py
+
       - name: 3. Build
         env: 
           HUGO_GITGUD_ACCESS_TOKEN: ${{ secrets.HUGO_GITGUD_ACCESS_TOKEN }}
