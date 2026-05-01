@@ -15,7 +15,7 @@ def fetch_json(url):
     if ACCESS_TOKEN:
         req.add_header("PRIVATE-TOKEN", ACCESS_TOKEN)
     
-    max_retries = 3
+    max_retries = 5
     for attempt in range(max_retries):
         try:
             with urllib.request.urlopen(req) as response:
@@ -99,7 +99,7 @@ def main():
         # Replace slashes and other characters for Hugo key compatibility
         safe_repo_key = repo_id
         data[safe_repo_key] = repo_info
-        time.sleep(0.5) # Avoid hitting limits too quickly
+        time.sleep(1) # Avoid hitting limits too quickly
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
