@@ -1,6 +1,6 @@
 # 主页
 
-[![](https://img.shields.io/badge/主页-erazhgame.xyz-brightgreen?logo=e&logoColor=white)](https://erazhgame.xyz/)
+[![](https://img.shields.io/badge/主页-ckrainbow.github.io-brightgreen?logo=e&logoColor=white)](ckrainbow.github.io/era-games-zh-backup/)
 [![](https://img.shields.io/discord/880635750545252353?style=flat&label=Discord&logo=discord&logoColor=white)](https://discord.gg/C97fHN8Rnk)
 [![](https://img.shields.io/badge/Telegram-%40era__games-informational?style=flat&logo=telegram)](https://t.me/era_games)
 

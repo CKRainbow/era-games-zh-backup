@@ -1,6 +1,7 @@
 +++
 title = "东方世界观"
 menu = "main"
+description = "东方 Project 世界观的 era 游戏推荐与整理"
 +++
 
 # 东方世界观

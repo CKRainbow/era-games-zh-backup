@@ -1,6 +1,7 @@
 +++
 title = "相关链接"
 menu = "main"
+description = "中文 era 游戏社群相关链接与资源"
 +++
 
 # 相关链接

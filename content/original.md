@@ -1,6 +1,7 @@
 +++
 title = "原创世界观"
 menu = "main"
+description = "各种原创世界观的 era 游戏推荐与整理"
 +++
 
 # 原创世界观
