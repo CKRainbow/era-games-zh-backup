@@ -18,7 +18,7 @@ description = "东方 Project 世界观的 era 游戏推荐与整理"
 
 ## eraTW画蛇又添足
 
-{{< era-game "28180" >}}
+{{< era-game "28180" "main" >}}
 
 > 本作由「傲視長空」推荐。
 
