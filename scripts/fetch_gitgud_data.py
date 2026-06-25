@@ -14,7 +14,6 @@ CONTENT_DIR = "content"
 OUTPUT_FILE = "data/gitgud.json"
 GITGUD_API_BASE = "https://gitgud.io/api/v4/projects"
 ACCESS_TOKEN = os.getenv("HUGO_GITGUD_ACCESS_TOKEN")
-ACCESS_TOKEN = "ggio_0QJ_40bBluMpC0IhovwnKW86MQp1Omw3MQk.01.0z1okmwx0"
 
 def fetch_json(url):
     req = urllib.request.Request(url, method="GET")
