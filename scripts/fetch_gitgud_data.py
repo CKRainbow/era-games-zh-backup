@@ -1,3 +1,8 @@
+# /// script
+# requires-python = ">=3.8"
+# dependencies = []
+# ///
+
 import os
 import re
 import json
@@ -9,9 +14,12 @@ CONTENT_DIR = "content"
 OUTPUT_FILE = "data/gitgud.json"
 GITGUD_API_BASE = "https://gitgud.io/api/v4/projects"
 ACCESS_TOKEN = os.getenv("HUGO_GITGUD_ACCESS_TOKEN")
+ACCESS_TOKEN = "ggio_0QJ_40bBluMpC0IhovwnKW86MQp1Omw3MQk.01.0z1okmwx0"
 
 def fetch_json(url):
-    req = urllib.request.Request(url)
+    req = urllib.request.Request(url, method="GET")
+    # 添加浏览器 User-Agent 以绕过 Cloudflare 的 bot 检测（Error 1010）
+    req.add_header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36")
     if ACCESS_TOKEN:
         req.add_header("PRIVATE-TOKEN", ACCESS_TOKEN)
     
@@ -26,6 +34,13 @@ def fetch_json(url):
                 time.sleep(2 ** attempt)
             else:
                 print(f"HTTP Error {e.code}: {url}")
+                print(f"--- {e.reason}")
+                # 尝试读取响应体获取详细报错信息
+                try:
+                    error_body = e.read().decode()
+                    print(error_body[:500])  # 只打印前 500 字符，避免 Cloudflare HTML 页面刷屏
+                except Exception:
+                    pass
                 return None
         except Exception as e:
             print(f"Error fetching {url}: {e}")
