@@ -22,3 +22,5 @@ hugo.linux
 /data/gitgud.json
 /data/fetch-report.json
 /data/fetch-report.md
+
+/reports/

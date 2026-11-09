@@ -7,7 +7,8 @@
 设计要点：
   A. 增量合并：以磁盘上已有的 data/gitgud.json 为基线（CI 中由 actions/cache 还原），
      抓取成功的条目覆盖旧值，抓取失败（524/超时/网络错误）的条目保留旧值。
-  C. 完整性门槛：输出 data/fetch-report.json + data/fetch-report.md；只要存在
+  C. 完整性门槛：输出 data/fetch-report.json + reports/fetch-report.md（后者不能放 data/，
+     Hugo 会把 data/ 下所有文件当数据文件解析）；只要存在
      "既没抓到、也没有旧数据"的条目，就以非 0 退出，让 workflow 失败、不部署残缺站点。
   E. 降低单请求开销：项目接口带 simple=true（跳过 permissions/license/statistics 等
      服务端计算）。实测本项目这些公开项目响应体无变化，保留以备上游调整。
@@ -27,7 +28,10 @@ CONTENT_DIR = "content"
 DATA_DIR = "data"
 OUTPUT_FILE = os.path.join(DATA_DIR, "gitgud.json")
 REPORT_JSON = os.path.join(DATA_DIR, "fetch-report.json")
-REPORT_MD = os.path.join(DATA_DIR, "fetch-report.md")
+# Hugo 会把 data/ 下的每个文件都当作结构化数据加载，data/ 里出现 .md 会让整个站点
+# 构建直接失败（unmarshal of format "" is not supported），所以可读报告写到 data/ 之外。
+REPORT_DIR = "reports"
+REPORT_MD = os.path.join(REPORT_DIR, "fetch-report.md")
 GITGUD_API_BASE = "https://gitgud.io/api/v4/projects"
 ACCESS_TOKEN = os.getenv("HUGO_GITGUD_ACCESS_TOKEN")
 IS_ACTIONS = os.getenv("GITHUB_ACTIONS") == "true"
@@ -224,6 +228,7 @@ def write_report(report):
             lines.append(f"| {repo_id} | {name or '-'} | {part} | {label} | {reason} |")
 
     md = "\n".join(lines) + "\n"
+    os.makedirs(REPORT_DIR, exist_ok=True)
     with open(REPORT_MD, "w", encoding="utf-8") as f:
         f.write(md)
 
