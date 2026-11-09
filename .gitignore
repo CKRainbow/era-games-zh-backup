@@ -17,3 +17,8 @@ hugo.linux
 /.hugo_build.lock
 
 # End of https://www.toptal.com/developers/gitignore/api/hugo
+
+# 构建期生成的数据（CI 里由 actions/cache 保存，不提交到仓库）
+/data/gitgud.json
+/data/fetch-report.json
+/data/fetch-report.md
